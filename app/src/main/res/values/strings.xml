@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+    <string name="enter_a_city">Enter a city</string>
+    <string name="connection_error">Connection error</string>
+    <string name="city_is_not_found">City is not found</string>
+    <string name="unknown_error">Unknown Error</string>
+    <string name="temp">Temp: %1$s</string>
+    <string name="humidity">Humidity: %1$s</string>
+    <string name="pressure">Pressure: %1$s</string>
+    <string name="icons_url">http://openweathermap.org/img/w/%1$s.png</string>
+</resources>
