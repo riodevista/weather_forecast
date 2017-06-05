@@ -96,6 +96,7 @@ public class WeatherForecastActivity extends MvpActivity<WeatherForecastView, We
         super.onDestroy();
         realm.close();
         weatherList.setAdapter(null);
+        realm.removeAllChangeListeners();
     }
 
     private void setUpViews() {
